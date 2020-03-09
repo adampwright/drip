@@ -15,10 +15,11 @@ $extraMenu = $view['menu']->render('extra');
     <!-- brand -->
     <a class="mautic-brand<?php echo (!empty($extraMenu)) ? ' pull-left pl-0 pr-0' : ''; ?>" href="#">
         <!-- logo figure -->
-        <img src="https://storage.cloud.google.com/ww-general-storage/purple-star-boxed.png?authuser=1"/>
+        <img src="https://storage.googleapis.com/ww-general-storage/purple-star-boxed.png" />
         <!--/ logo figure -->
         <!-- logo text -->
-        <img src="https://storage.cloud.google.com/ww-general-storage/purple-ww-boxed.png?authuser=1"/>
+        <img src="https://storage.googleapis.com/ww-general-storage/purple-ww-boxed.png" />
+        
         <!--/ logo text -->
     </a>
     <?php if (!empty($extraMenu)): ?>
