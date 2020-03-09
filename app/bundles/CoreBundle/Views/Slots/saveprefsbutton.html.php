@@ -8,7 +8,7 @@
  * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 
-$style      = isset($saveprefsbutton['style']) ? $saveprefsbutton['style'] : 'display:inline-block;text-decoration:none;border-color:#4e5d9d;border-width: 10px 20px;border-style:solid; text-decoration: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background-color: #4e5d9d; display: inline-block;font-size: 16px; color: #ffffff;';
+$style      = isset($saveprefsbutton['style']) ? $saveprefsbutton['style'] : 'display:inline-block;text-decoration:none;border-color:#1A202C;border-width: 10px 20px;border-style:solid; text-decoration: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background-color: #1A202C; display: inline-block;font-size: 16px; color: #ffffff;';
 $background = isset($saveprefsbutton['background']) ? $saveprefsbutton['background'] : '';
 
 if (isset($form)) {
